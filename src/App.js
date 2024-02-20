@@ -1,9 +1,12 @@
-import './App.css';
+import React from 'react';
+import Home from './Components/Home/Home';
 
 function App() {
   return (
-    <div className="text-2xl text-center bg-slate-500">
-       Weather App
+    <div>
+
+  <Home/>
+    
     </div>
   );
 }
